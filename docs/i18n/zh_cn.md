@@ -121,7 +121,7 @@ const webpackConfig = {
 }
 ```
 
-:notebook_with_decorative_cover:由于插件是根据`process.env.NODE_ENV` 环境变量来选择不同的操作，因此需要在`package.json` 文件中 `scrpt`选项显示配置环境变量如下：
+:notebook_with_decorative_cover:由于插件是根据`process.env.NODE_ENV` 环境变量来选择不同的操作，因此需要在`package.json` 文件中 `scripts`选项显示配置环境变量如下：
 
 ```json
 "scripts": {
